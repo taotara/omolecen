@@ -90,8 +90,13 @@
 
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
+    font-family: 'Cinzel Decorative';
     bottom: 3rem;
     z-index: 10;
+  }
+
+  .second-caption {
+    font-family: 'Roboto Slab';
   }
   
   /* Declare heights because of positioning of img element */
@@ -160,3 +165,5 @@
       margin-top: 7rem;
     }
   }
+
+  

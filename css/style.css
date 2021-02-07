@@ -166,4 +166,28 @@
     }
   }
 
+
+  .prayer-time-box {
+    background: linear-gradient(rgba(78,146,71,0.5), rgba(78,146,71,0.9)),
+    url(../img/Lagos_Central_Mosque.jpg);;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    min-height: 200px;
+  }
+
+  .welcome-heading-box {
+    background: url(../img/divider_gold.svg);
+    background-position: bottom, left;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+  }
+
+  .welcome-heading {
+    font-family: 'Cinzel Decorative';
+    font-size: 31px;
+    width: 350px;
+  }  
   

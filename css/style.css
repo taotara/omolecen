@@ -48,11 +48,22 @@
       font-family: 'Cinzel Decorative';
   }
 
-  .btn-login {
-    background-color: var(--green);
+  .btn-learn-more {
+    background-color: var(--gold);
+    border-radius: 5px;
     width: 135px;
     height: 50px;
-    color: #fff;
+    color: #3F3F3F;
+    margin: 5px;
+    font-family: 'Roboto Slab';
+}
+
+  .btn-login {
+    background-color: var(--green);
+    border-radius: 5px;
+    width: 135px;
+    height: 50px;
+    color: #000;
     margin: 5px;
     font-family: 'Cinzel Decorative';
 }
@@ -239,8 +250,12 @@
   }  
 
   .join-us-bg {
-    background: rgb(0, 0, 0);
-    
+    background:
+    url(../img/join_us_bg.jpg),
+    linear-gradient(rgb(1,1,1), rgb(10,10,17));
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    padding-top: 50px;
   }
 
   .join-us-title {

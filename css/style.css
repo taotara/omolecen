@@ -18,6 +18,7 @@
 
   body{
       font-family: Roboto Slab;
+      color: #3f3f3f;
   }
 
   /* Header */
@@ -41,6 +42,7 @@
 
   .btn-joinus {
       background-color: var(--gold);
+      font-size: 14px;
       width: 135px;
       height: 50px;
       color: #3F3F3F;
@@ -60,10 +62,12 @@
 
   .btn-login {
     background-color: var(--green);
+    font-size: 14px;
     border-radius: 5px;
     width: 135px;
+    color: white;
     height: 50px;
-    color: #000;
+    color: #fff;
     margin: 5px;
     font-family: 'Cinzel Decorative';
 }
@@ -204,7 +208,6 @@
   .section-heading {
     font-family: 'Cinzel Decorative';
     font-size: 31px;
-    width: 350px;
   }  
 
   .prayer-time-box {

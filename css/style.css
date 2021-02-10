@@ -83,7 +83,7 @@
 
 /* Carousel base class */
 .carousel {
-    margin-bottom: 4rem;
+    margin-bottom: 0;
   }
 
   
@@ -109,6 +109,13 @@
     left: 0;
     min-width: 100%;
     height: 32rem;
+  }
+
+  .green-div {
+    margin: 20px auto;
+    height: 3px;
+    width: 100px;
+    background-color: var(--green);
   }
   
   
@@ -166,28 +173,95 @@
     }
   }
 
-
-  .prayer-time-box {
-    background: linear-gradient(rgba(78,146,71,0.5), rgba(78,146,71,0.9)),
-    url(../img/Lagos_Central_Mosque.jpg);;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    justify-content: center;
-    min-height: 200px;
-  }
-
-  .welcome-heading-box {
+  .div-gold {
     background: url(../img/divider_gold.svg);
-    background-position: bottom, left;
     background-repeat: no-repeat;
     padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-top: 50px;
   }
 
-  .welcome-heading {
+  .div-white {
+    background: url(../img/divider_white.svg);
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+  }
+
+
+  .section-heading {
     font-family: 'Cinzel Decorative';
     font-size: 31px;
     width: 350px;
   }  
+
+  .prayer-time-box {
+    background: linear-gradient(rgba(78,146,71,0.95), rgba(78,146,71,0.95)),
+    url(../img/Lagos_Central_Mosque.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+  }
+
+  .prayer-time-heading {
+    background-position: bottom;
+    color: white;
+    font-family: 'Cinzel Decorative';
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .prayer-time {
+    color: white;
+  }
+
+  .prayer-time-date {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+  .welcome {
+    padding-bottom: 50px;
+  }
+
+  .welcome-heading-box {
+    background-position: 0 100%;
+  }
+
+
+  .welcome-heading {
+    color: #444;
+    width: 350px;
+  }  
+
+  .join-us-bg {
+    background: rgb(0, 0, 0);
+    
+  }
+
+  .join-us-title {
+    font-family: 'Cinzel Decorative';
+    font-size: 31px;
+    background-position: bottom;
+    color: white;
+    text-align: center;
+  }
+
+  .join-us-msg {
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+  }
   
+.footer-box {
+  height: 300px;
+  background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,1)),
+  url(../img/footer_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

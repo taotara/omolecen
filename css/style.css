@@ -274,6 +274,63 @@
     font-size: 22px;
     font-weight: 300;
   }
+
+  .event-date {
+    width: 95px;
+    height: 95px;
+    background-color: var(--green);
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Cinzel Decorative';
+  }
+
+  .event-list-title {
+    font-family: 'Roboto Slab';
+    font-size: 17px;
+    font-weight: bold;
+    display: inline;
+  }
+
+  .details a{
+    font-size: 14px;
+    color: var(--gold);
+    margin-top: 20px;
+  }
+
+  .our-programme-bg {
+    background-color: #eee;
+  }
+
+  .our-programmes {
+    font-family: 'Cinzel Decorative';
+    font-size: 26px;
+    margin: 20px 0;
+  }
+
+  .programme-time {
+    margin-bottom: 50px;
+  }
+
+  .hadith-bg {
+    background: linear-gradient(rgba(78,146,71,0.95), rgba(78,146,71,0.95)), url(/img/hadith_bg.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    margin-bottom: 20px;
+    
+  }
+
+  .quran-bg {
+    background: linear-gradient(rgba(219,158,48,0.95), rgba(219,158,48,0.95)), url(/img/quran_bg.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    margin-bottom: 20px;
+  }
   
 .footer-box {
   height: 300px;

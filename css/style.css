@@ -331,9 +331,33 @@
     min-height: 500px;
     margin-bottom: 20px;
   }
+
+  .reminder-content {
+    color: white;
+    padding: 20px;
+  }
+
+  .news-letter-tittle {
+    background-position: bottom;
+    color: white;
+    text-align: center;
+  }
+
+  .news-letter-box {
+    width: 100%;
+  }
+
+  .subcribe-box {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .btn-suscribe {
+    background-color: var(--green);
+  }
   
 .footer-box {
-  height: 300px;
+  min-height: 300px;
   background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,1)),
   url(../img/footer_bg.jpg);
   background-repeat: no-repeat;

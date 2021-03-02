@@ -314,7 +314,7 @@
   }
 
   .hadith-bg {
-    background: linear-gradient(rgba(78,146,71,0.95), rgba(78,146,71,0.95)), url(/img/hadith_bg.jpg);
+    background: linear-gradient(rgba(78,146,71,0.95), rgba(78,146,71,0.95)), url(../img/hadith_bg.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -324,7 +324,7 @@
   }
 
   .quran-bg {
-    background: linear-gradient(rgba(219,158,48,0.95), rgba(219,158,48,0.95)), url(/img/quran_bg.jpg);
+    background: linear-gradient(rgba(219,158,48,0.95), rgba(219,158,48,0.95)), url(../img/quran_bg.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;

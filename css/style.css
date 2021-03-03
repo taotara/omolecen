@@ -74,8 +74,8 @@
 
 .social a{
       font-family: Roboto Slab;
-      font-size: 21px;
-      color: #fff;
+      font-size: 16px;
+      color: var(--green);
       margin: 0 10px;
       text-align: right;
 }
@@ -352,8 +352,18 @@
     margin: 0 auto;
   }
 
+  .subscribe-input {
+    height: 50px;
+  }
+
+  .subscribe-msg {
+    color: white;
+  }
+
   .btn-suscribe {
-    background-color: var(--green);
+    background-color: var(--gold);
+    color: white;
+    padding: 10px;
   }
   
 .footer-box {
@@ -363,4 +373,49 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-bottom: 50px;
+}
+
+.footer-item-title {
+  font-family: 'Cinzel Decorative';
+  font-size: 21px;
+  color: white;
+  margin: 20px 0;
+}
+
+.footer-nav-item {
+  font-family: 'Roboto Slab';
+  font-size: 14px;
+  color: white;
+}
+
+.footer-nav-item a {
+  font-family: 'Roboto Slab';
+  font-size: 14px;
+  color: white;
+}
+
+.footer-social a{
+  font-family: Roboto Slab;
+  font-size: 25px;
+  color: #000;
+  margin: 0 10px;
+  text-align: center;
+}
+
+
+i.fab {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: white;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+  background-color: #000;
+  border-top: #333 solid 1px;
+  padding: 20px 0;
 }

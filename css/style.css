@@ -40,6 +40,10 @@
       background-color: #fff;
   }
 
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
   .btn-joinus {
       background-color: var(--gold);
       font-size: 14px;

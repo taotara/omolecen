@@ -89,12 +89,13 @@
 .navbar-menu a {
     font-family: 'Cinzel Decorative';
     font-size: 13px;
+    border-bottom: transparent 2px solid;
     
 }
 
 .navbar-menu a:hover {
+    color: var(--green);
     border-bottom: var(--green) 2px solid;
-    
 }
 
 /* CUSTOMIZE THE CAROUSEL

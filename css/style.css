@@ -343,9 +343,8 @@
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 500px;
     margin-bottom: 20px;
-    
+    padding: 10px 0;
   }
 
   .quran-bg {
@@ -353,9 +352,34 @@
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 500px;
     margin-bottom: 20px;
+    padding: 10px 0;
   }
+
+  .content-box {
+    height: 500px;
+    overflow-y: auto;
+  }
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
 
   .reminder-content {
     color: white;
